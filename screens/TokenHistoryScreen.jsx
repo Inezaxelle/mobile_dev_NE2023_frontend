@@ -41,6 +41,7 @@ const TokenHistoryScreen = () => {
           value={meterNumber}
           onChangeText={(text) => setMeterNumber(text)}
           style={styles.input}
+          keyboardType="numeric"
         />
         <Button title="Search" onPress={handleSearch}/>
       </View>

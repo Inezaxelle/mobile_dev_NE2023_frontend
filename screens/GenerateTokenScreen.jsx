@@ -38,6 +38,7 @@ const GenerateTokenScreen = () => {
           value={meterNumber}
           onChangeText={(text) => setMeterNumber(text)}
           style={styles.input}
+          keyboardType="numeric"
         />
         <TextInput
           placeholder="Enter Amount"
